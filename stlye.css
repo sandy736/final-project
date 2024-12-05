@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+     font-family:Arial, Helvetica, sans-serif ;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: #333;
+}
+.topnav a{
+    float: left;
+    color: deeppink;
+    text-align: center;
+    padding: 14px 16px;
+     text-decoration: none;
+     font-size: 17px;
+}
+
+.topnav a:hover{
+    background-color: blueviolet;
+    color: deepskyblue;   
+}
+
+.topnav a:active {
+    background-color: yellowgreen;
+    color: darkcyan;
+
+}
+
+body {
+    background-color: #deb878;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    /* Adjust based on your image height */
+
+
+    /* Hide all slides by default */
+    .myslides {
+        display: none;
+        max-height: 100%;
+        /* Ensure images fit within container */
+        max-width: 100%;
+    }
